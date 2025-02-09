@@ -1,0 +1,28 @@
+{
+    "name": "stxrsh1ne/fatigue",
+    "description": "Implementation of a php program on the topic \"Prime number\"",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "stxrsh1ne\\prime\\": "src/"
+        },
+        "files": [
+            "src/Controller.php",
+            "src/View.php"
+        ]
+    },
+    "bin": [
+        "bin/prime"
+    ],
+    "authors": [
+        {
+            "name": "stxrsh1ne",
+            "email": "iaroslav.iliushkin@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "wp-cli/php-cli-tools": "^0.12.0"
+    }
+}
